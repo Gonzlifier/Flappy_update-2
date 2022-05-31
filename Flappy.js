@@ -240,8 +240,4 @@ function GameStart() {
   setInterval(() => {
     GetRandomPipes();
   }, PipeDelay);
-  setInterval(() => {
-    MissileRecharge();
-    console.log("Attempting Reload");
-  }, 10000);
 }
